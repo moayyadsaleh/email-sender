@@ -93,12 +93,29 @@ app.get("/", (req, res) => {
     res.render("home")
   });
 
+app.get("/home", (req, res) => {
+    res.render("home")
+  });
 
+app.get("/compose", (req, res) => {
+    res.render("compose")
+  });
 
+app.get("/login", (req, res) => {
+    res.render("login")
+  });
 
+app.get("/register", (req, res) => {
+    res.render("register")
+  });
 
+  app.get("/schedule", (req, res) => {
+    res.render("schedule")
+  });
 
-
+  app.get("/sent", (req, res) => {
+    res.render("sent")
+  });
 
   app.listen(PORT, () => {
     console.log(`App is up and listening on port ${PORT}`);
