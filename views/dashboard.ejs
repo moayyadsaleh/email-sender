@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <%- include('partials/header') %>
+    <title>Home Page</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Explore Your Email Hub</h1>
+    <button class="btn btn-primary" onclick="location.href='/compose'">Send an Email</button>
+      <button class="btn btn-primary" onclick="location.href='/schedule'">Schedule and email</button>
+      <button class="btn btn-primary" onclick="location.href='/sent'">Sent Emails</button>
+      <form action="/logout" method="POST">
+          <button class="btn btn-danger" type="submit">Log Out</button>
+      </form>
+  </div>
+</body>
+</html>
+
+
