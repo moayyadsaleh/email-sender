@@ -164,6 +164,17 @@ button[type="submit"] {
   cursor: pointer;
 }
 
+
+.login-button {
+  background-color: #00bfff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 /* Responsive design */
 @media (max-width: 600px) {
   .compose-section {
